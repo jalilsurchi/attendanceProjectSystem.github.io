@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <ul>
+        <li><a href="users.html">home</a></li>
+        <li><a href="register.html">register</a></li>
+        <li><a href="index.html">type_barcode</a></li>
+    </ul>
+</header>
+<div class="center">
+    
+
+
+<div class="container">
+    <h2>Register</h2>
+    <form id="register-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" >
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" >
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" >
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" >
+        <button type="submit" id="subbtn">Register</button>
+    </form>
+    <button   id="resbtn">reset</button>
+    <div id="barcode"></div>
+<br>  </div>
+   <br>
+        <!-- <p>Already have an account? <a href="index.html">Login</a></p> -->
+        
+   
+   
+    </div>
+    <!-- Include Firebase SDK -->
+    <!-- Include your script.js file -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
